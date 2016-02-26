@@ -1,0 +1,32 @@
+{
+  "name": "postcss-inline-block",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for IE6's inline-block bug",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "inline-block"
+  ],
+  "author": "郭培培 <guopeipei@360.cn>",
+  "license": "MIT",
+  "repository": "hszy00232/postcss-inline-block",
+  "bugs": {
+    "url": "https://github.com/hszy00232/postcss-inline-block/issues"
+  },
+  "homepage": "https://github.com/hszy00232/postcss-inline-block",
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "eslint": "^2.1.0",
+    "eslint-config-postcss": "^2.0.0"
+  },
+  "scripts": {
+    "test": "ava && eslint test/*.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
