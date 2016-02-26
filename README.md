@@ -8,13 +8,15 @@
 
 ```css
 .foo {
-    /* Input example */
+    display : inline-block;
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+    display : inline-block;
+    *display : inline;
+    *zoom : 1;
 }
 ```
 
