@@ -8,7 +8,7 @@
     "postcss-plugin",
     "inline-block"
   ],
-  "author": "郭培培 <guopeipei@360.cn>",
+  "author": "bingguo <hszy00232@163.com>",
   "license": "MIT",
   "repository": "hszy00232/postcss-inline-block",
   "bugs": {
